@@ -6,7 +6,7 @@ enableRobotsTXT = true
 
 [params]
     author = "y.06"
-    description = "Rausr is bottomless repository of magnificent ideas. Rausr creates a high-speed highway between information and random user."
+    description = ""
     accent = "#43414C"
     showBorder = false
     font = "Yomogi"
