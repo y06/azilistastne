@@ -1,0 +1,33 @@
+baseURL = "https://azilistastne.sk/"
+languageCode = "en-us"
+title = "Ulož si tento dátum"
+googleAnalytics = ""
+enableRobotsTXT = true
+
+[params]
+    author = "y.06"
+    description = "Rausr is bottomless repository of magnificent ideas. Rausr creates a high-speed highway between information and random user."
+    accent = "#43414C"
+    showBorder = false
+    font = "Yomogi"
+
+
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      definitionList = true
+      footnote = true
+      linkify = true
+      strikethrough = true
+      table = true
+      taskList = true
+      typographer = true
+    [markup.goldmark.parser]
+      attribute = true
+      autoHeadingID = true
+      autoHeadingIDType = "github"
+    [markup.goldmark.renderer]
+      hardWraps = false
+      unsafe = true
+      xhtml = false
